@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Student Tracker Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <h1>LearnScore</h1>
+        <a class="link" href="{{ url_for('parent_signup') }}">Sign Up </a>
+        <a href="{{ url_for('signin') }}">Sign In</a>
+    </div>
+    <div class="container">
+        <h1>Welcome to Student Tracker Portal</h1>
+        <p>Our Parent-Teacher Portal is designed to facilitate seamless communication and collaboration between parents and teachers. Whether you're a parent looking to stay informed about your child's academic progress or a teacher seeking to engage parents in their child's education, our portal has you covered!</p>
+        <p>With our platform, you can:</p>
+        <ul>
+            <li>Track your child's academic performance and progress in various subjects.</li>
+            <li>Stay updated on important school events, assignments, and announcements.</li>
+            <li>Communicate directly with your child's teachers to discuss their development, address concerns, and collaborate on strategies for improvement.</li>
+            <li>Access resources and educational materials to support your child's learning journey.</li>
+            <li>Participate in parent-teacher conferences and meetings to foster a collaborative approach to education.</li>
+        </ul>
+        
+        <p>If you're new to the portal, sign up now to create your account and begin exploring the various features and resources available. If you're already a member, simply sign in to access your account and stay connected with your child's educational journey!</p>
+    </div>
+</body>
+</html>
